@@ -4,7 +4,6 @@
 using namespace std;
 
 int main () {
-
     int medio, mayor, menor, prim_num, seg_num, ter_num;
 
     cout << "Ingrese el primer numero: ";
@@ -33,8 +32,6 @@ int main () {
     } else {
         medio = ter_num;
     }
-
-
 
     cout << "Los numero son: " << menor << ", " << medio << ", " << mayor;
     return 0;

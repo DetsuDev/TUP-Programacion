@@ -4,6 +4,8 @@
 using namespace std;
 
 int main () {
+  // *Funciona pero se puede hacer mejor
+  
     int medio, prim_num, seg_num, ter_num;
 
     cout << "Ingrese el primer numero: ";
