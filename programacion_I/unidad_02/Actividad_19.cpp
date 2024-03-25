@@ -9,7 +9,7 @@ int main()
 {
 	int horas, costo;
 	char lang, urg;
-	bool bUrg;
+	bool boolean;
 
 	cout << "Ingrese el tipo de lenguaje: ";
 	cin >> lang;
@@ -20,42 +20,42 @@ int main()
 	cout << "Es urgente?: ";
 	cin >> urg;
 
-	if (urg == 's')
+	switch (urg)
 	{
-		bUrg = true;
-	}
-	else if (urg == 'n')
-	{
-		bUrg = false;
+	case 'S':
+		boolean = true;
+		break;
+	case 'N':
+		boolean = false;
+		break;
 	}
 
-	if (lang == 'c')
+	switch (lang)
 	{
+	case 'C':
 		costo = horas * 7500;
-	}
-	else if (lang == '#')
-	{
+		break;
+	case '#':
 		costo = horas * 6100;
-	}
-	else if (lang == 'p')
-	{
+		break;
+	case 'P':
 		costo = horas * 5400;
-	}
-	else if (lang == 'g')
-	{
+		break;
+	case 'G':
 		costo = horas * 5000;
+		break;
 	}
 
-	if (bUrg)
+	if (boolean)
 	{
 		costo = costo * 1.20;
 	}
 
 	cout << "El costo total es de: " << costo << "\n";
-	
-	// Las siguientes dos lineas es para repetir el codigo
+
+	// Las siguientes dos lineas es para repetir el codigo,
 	cout << "-\n";
 	main();
-	
+
 	return 0;
 }
