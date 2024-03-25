@@ -11,7 +11,7 @@ int main () {
     cout << "Ingrese el segundo numero: ";
     cin >> seg_num;
 
-    if (prim_num > seg_num ) {
+    if (prim_num > seg_num) {
         mayor_num = prim_num;
         menor_num = seg_num;
     } else {

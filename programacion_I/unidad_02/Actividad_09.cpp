@@ -17,7 +17,7 @@ int main () {
         mayor_num = seg_num;
     }
 
-    cout << "Ingrese el tercero numero: ";
+    cout << "Ingrese el tercer numero: ";
     cin >> ter_num;
 
     if (ter_num > mayor_num) {

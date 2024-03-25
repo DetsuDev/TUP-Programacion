@@ -1,9 +1,12 @@
 // Autor: Tomas Bottelli
 
+// *No me gusta este codigo
+
 #include <iostream>
 using namespace std;
 
 int main () {
+  
     int medio, mayor, menor, prim_num, seg_num, ter_num;
 
     cout << "Ingrese el primer numero: ";
