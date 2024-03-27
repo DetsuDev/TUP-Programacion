@@ -1,5 +1,3 @@
-// Autor: Tomas Bottelli
-
 // Estuve media por que habia puesto mal un &&
 
 // A partir de aca empece a programar desde el celu, asi que es probable que la forma de escribir sea algo distinta

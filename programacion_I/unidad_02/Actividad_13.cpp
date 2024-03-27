@@ -1,5 +1,3 @@
-// Autor: Tomas Bottelli
-
 // *No me gusta este codigo
 
 #include <iostream>

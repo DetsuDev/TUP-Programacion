@@ -1,5 +1,3 @@
-// Autor: Tomas Bottelli
-
 // Este esta bueno para poner un control de input, pero no lo pide
 
 #include <iostream>

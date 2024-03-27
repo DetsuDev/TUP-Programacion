@@ -1,5 +1,3 @@
-// Autor: Tomas Bottelli
-
 #include <iostream>
 using namespace std;
 

@@ -1,5 +1,3 @@
-// Autor: Tomas Bottelli
-
 #include <iostream>
 using namespace std;
 
@@ -12,12 +10,6 @@ int main () {
     cin >> seg_num;
 
     diferencia = prim_num - seg_num;
-
-    if (prim_num > seg_num) {
-        diferencia = prim_num - seg_num;
-    } else {
-        diferencia = seg_num - prim_num;
-    }
 
     cout << "La diferencia es de: " << diferencia;
 
