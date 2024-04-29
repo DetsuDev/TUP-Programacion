@@ -17,7 +17,7 @@ int main()
             num_par = num;
             pos_par = i;
             par_exist = true;
-		} else if (num / num == 1 && num % 2 != 0 && num % 3 != 0)
+		} else if (num % 2 != 0 && num % 3 != 0)
 		{
             num_primo = num;
             pos_primo = i;

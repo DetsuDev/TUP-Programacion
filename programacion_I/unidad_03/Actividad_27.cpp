@@ -9,7 +9,7 @@ int main()
     float temp_max = 0;
     float temp_max_dia = 0;
     float temp, lluvia_mm, vis_km, amplitud;
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 15; i++)
     {   
 
         cout << "Ingrese numero de dia: ";
@@ -20,6 +20,7 @@ int main()
         cin >> lluvia_mm;
         cout << "Ingrese visibilidad en km: ";
         cin >> vis_km;
+        cout << "--------------------------------------" << endl;
 
         if (temp > temp_max)
         {
@@ -46,15 +47,15 @@ int main()
         amplitud = temp_min - temp_max;
     }
 
-    cout << "Temperatura max: " << dia << endl;
+    cout << "Dia con temperatura max: " << dia << endl;
     cout << "Amplitud termica: " << amplitud << endl;
     cout << "Dias con neblina: " << dias_neblina << endl;
 
-    if (dias_neblina > 3)
+    if (dias_neblina > 7)
     {
         cout << "Quincena lluviosa.";
     }
-    else if (dias_neblina >= 2)
+    else if (dias_neblina >= 3)
     {
         cout << "Quincena humeda.";
     }
